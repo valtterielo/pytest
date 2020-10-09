@@ -10,6 +10,5 @@ python:
   - "pypy3"  # currently Python 3.6.1,  PyPy 7.1.1-beta0
 # command to run tests
 script:
-  - pytest
-  - coverage run -m pytest
+  - coverage run -m --source=. pytest
   - coverage report -m
