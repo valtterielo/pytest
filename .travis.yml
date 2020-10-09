@@ -11,5 +11,5 @@ python:
 # command to run tests
 script:
   - pytest
-  - coverage run -m --source=. pytest
+  - coverage run -m pytest
   - coverage report -m
